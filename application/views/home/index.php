@@ -50,7 +50,7 @@
     	</div>
 
     	<!-- FOR MOBILE -->
-    	<ul class="sidenav" id="mobile-nav">
+    	<ul class="sidenav indigo lighten-4" id="mobile-nav">
 			<li>
 				<a href="#home">Home</a>
 			</li>
@@ -73,16 +73,16 @@
 		<section class="slider">
 			<ul class="slides">
 		      <li>
-		        <img src="<?php echo base_url() ?>assets/images/image1.jpg"> <!-- random image -->
+		        <img src="<?php echo base_url() ?>assets/images/mdm3.jpg"> <!-- random image -->
 		        <div class="caption center-align">
-		          <h2>This is our big Tagline!</h2>
-		          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		          <h2 class="black-text">This is our big Tagline!</h2>
+		          <h5 class="light black-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		          quis nostrud </h5>
 		        </div>
 		      </li>
 		      <li>
-		        <img src="<?php echo base_url() ?>assets/images/image2.jpg"> <!-- random image -->
+		        <img src="<?php echo base_url() ?>assets/images/mdm10.jpg"> <!-- random image -->
 		        <div class="caption left-align">
 		          <h2>Left Aligned Caption</h2>
 		          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -91,7 +91,7 @@
 		        </div>
 		      </li>
 		      <li>
-		        <img src="<?php echo base_url() ?>assets/images/image3.jpg"> <!-- random image -->
+		        <img src="<?php echo base_url() ?>assets/images/mdm7.jpg"> <!-- random image -->
 		        <div class="caption right-align">
 		          <h2>Right Aligned Caption</h2>
 		          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
