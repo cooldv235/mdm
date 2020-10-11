@@ -20,7 +20,7 @@
 
     	<!-- NAVBAR BEGIN -->
     	<div class="navbar-fixed">
-    		<nav class="teal">
+    		<nav class="red lighten-1">
     			<div class="container">
     				<div class="nav-wrapper">
     					<a href="#" class="brand-logo">MDM Analytics</a>
@@ -53,7 +53,7 @@
     	</div>
 
     	<!-- FOR MOBILE -->
-    	<ul class="sidenav" id="mobile-nav">
+    	<ul class="sidenav red lighten-4" id="mobile-nav">
 			<li>
 				<a href="#home">Home</a>
 			</li>
@@ -89,16 +89,16 @@
 		<section class="slider">
 			<ul class="slides">
 		      <li>
-		        <img src="<?php echo base_url() ?>assets/images/image1.jpg"> <!-- random image -->
+		        <img src="<?php echo base_url() ?>assets/images/mdm3.jpg"> <!-- random image -->
 		        <div class="caption center-align">
-		          <h2>This is our big Tagline!</h2>
-		          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		          <h2 class="black-text">This is our big Tagline!</h2>
+		          <h5 class="light black-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		          quis nostrud </h5>
 		        </div>
 		      </li>
 		      <li>
-		        <img src="<?php echo base_url() ?>assets/images/image2.jpg"> <!-- random image -->
+		        <img src="<?php echo base_url() ?>assets/images/mdm10.jpg"> <!-- random image -->
 		        <div class="caption left-align">
 		          <h2>Left Aligned Caption</h2>
 		          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -107,7 +107,7 @@
 		        </div>
 		      </li>
 		      <li>
-		        <img src="<?php echo base_url() ?>assets/images/image3.jpg"> <!-- random image -->
+		        <img src="<?php echo base_url() ?>assets/images/mdm7.jpg"> <!-- random image -->
 		        <div class="caption right-align">
 		          <h2>Right Aligned Caption</h2>
 		          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -135,12 +135,12 @@
 		<!-- SEARCH SECTION END -->
 
 		<!-- SECTION ICON BOXES -->
-		<section class="section section-icons grey lighten-4 center">
+		<section class="section section-icons red lighten-1 center">
 			<div class="container">
 				<div class="row">
 					<div class="col s12 m4">
 						<div class="card-panel">
-							<i class="material-icons large teal-text">school</i>
+							<i class="material-icons large red-text">school</i>
 							<h4>Schools</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -149,7 +149,7 @@
 
 					<div class="col s12 m4">
 						<div class="card-panel">
-							<i class="material-icons large teal-text">child_care</i>
+							<i class="material-icons large red-text">child_care</i>
 							<h4>Children</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -158,7 +158,7 @@
 
 					<div class="col s12 m4">
 						<div class="card-panel">
-							<i class="material-icons large teal-text">home</i>
+							<i class="material-icons large red-text">home</i>
 							<h4>Aanganwadi</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua.
@@ -168,7 +168,7 @@
 
 					<div class="col s12 m4">
 						<div class="card-panel">
-							<i class="material-icons large teal-text">people</i>
+							<i class="material-icons large red-text">people</i>
 							<h4>NGOs</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua.
@@ -178,7 +178,7 @@
 
 					<div class="col s12 m4">
 						<div class="card-panel">
-							<i class="material-icons large teal-text">room_service</i>
+							<i class="material-icons large red-text">room_service</i>
 							<h4>Food Info</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua.
@@ -188,7 +188,7 @@
 
 					<div class="col s12 m4">
 						<div class="card-panel">
-							<i class="material-icons large teal-text">business_center</i>
+							<i class="material-icons large red-text">business_center</i>
 							<h4>Vendors</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua.
@@ -205,7 +205,7 @@
 	    <div class="container">
 	      <div class="row">
 	        <h4 class="center">
-	          <span class="teal-text">CREATED</span> BY</h4>
+	          <span class="red-text">CREATED</span> BY</h4>
 	        <div class="col s12 m3">
 	          <div class="card">
 	            <div class="card-image">
@@ -260,7 +260,7 @@
 	  <!-- SECTION GOVT SCHEMES END -->
 
 	   <!-- SECTION SOCIAL MEDIA  -->
-	  <section class="section section-follow teal darken-2 white-text center">
+	  <section class="section section-follow red lighten-1 white-text center">
 	    <div class="container">
 	      <div class="row">
 	        <div class="col s12">
@@ -285,7 +285,7 @@
 	  <section id="gallery" class="section section-gallery scrollspy">
 	    <div class="container">
 	      <h4 class="center">
-	        <span class="teal-text">Photo </span> Gallery
+	        <span class="red-text">Photo </span> Gallery
 	      </h4>
 	      <div class="row">
 	        <div class="col s12 m3">
@@ -340,7 +340,7 @@
 	    <div class="container">
 	      <div class="row">
 	        <div class="col s12 m6">
-	          <div class="card-panel teal white-text center">
+	          <div class="card-panel red lighten-1 white-text center">
 	            <i class="material-icons medium">description</i>
 	            <h5>About Us</h5>
 	            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus sed praesentium delectus. Sit, mollitia
@@ -374,7 +374,7 @@
 	              <textarea class="materialize-textarea" placeholder="Enter Message" id="message"></textarea>
 	              <label for="message">Message</label>
 	            </div>
-	            <input type="submit" value="Submit" class="btn">
+	            <input type="submit" value="Submit" class="btn red lighten-1">
 	          </div>
 	        </div>
 	      </div>
@@ -383,7 +383,7 @@
 	  <!-- SECTION CONTACT US ENDS -->
 
 	  <!-- SECTION FOOTER -->
-	  <footer class="section teal darken-2 white-text center">
+	  <footer class="section red lighten-1 white-text center">
 	    <p class="flow-text">MDM Analytics SIRT-E College &copy; 2020</p>
 	  </footer>
 
