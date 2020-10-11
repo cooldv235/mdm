@@ -39,9 +39,12 @@
     						</li>
     						<li>
     							<a href="#contact">Contact Us</a>
+							</li>
+							<li>
+    							<?php echo anchor('users/signup', 'sign up') ?>
     						</li>
     						<li>
-								<a href="<?php echo site_url('admin/index') ?>">Sign In</a>
+								<a href="<?php echo site_url('admin/login') ?>">Login</a>
 							</li>
     					</ul>
     				</div>
@@ -63,9 +66,22 @@
 			<li>
 				<a href="#contact">Contact Us</a>
 			</li>
+			<?php if($this->session->userdata('authenticated')){ ?>
+
 			<li>
-				<a href="#contact">Sign In </a>
+    			<a href="#signup">dashboard</a>
+    		</li>
+			<li>
+				<a href="#contact"> Logout </a>
 			</li>
+			<?php } else { ?>
+				<li>
+    			<a href="#signup">Sign up</a>
+    		</li>
+			<li>
+				<a href="#login"> Login </a>
+			</li> 
+			<?php } ?> 
 		</ul>
 		<!-- NAVBAR END -->
 
