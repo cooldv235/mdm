@@ -1,20 +1,4 @@
 
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="<?php echo base_url() ?>assets/css/materialize.min.css"  media="screen,projection"/>
-      <!-- Font Awesome -->
-      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-      <!-- Custom CSS -->
-      <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/style.css">
-
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Home | MDM</title>
-    </head>
 
     <body id="home" class="scrollspy">
 
@@ -40,11 +24,54 @@
     						<li>
     							<a href="#contact">Contact Us</a>
 							</li>
-							<li>
+							<!-- <li>
     							<?php echo anchor('users/signup', 'sign up') ?>
-    						</li>
+    						</li> -->
     						<li>
-								<a href="<?php echo site_url('admin/login') ?>">Login</a>
+								
+								  <!-- Modal Trigger -->
+								  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Login</a>
+
+								  <!-- Modal Structure -->
+								  <div id="modal1" class="modal">
+								    <div class="modal-content">
+								      <h4 class="red-text center">Login</h4>
+								      
+										<?php if($this->session->flashdata('message')) { ?>
+						                <div class="alert alert-danger"><?php echo $this->session->flashdata('message')?></div>
+							              <?php }?>
+							              <?php echo form_open('admin/login', array('id' => 'loginForm') ) ?>
+
+							                <div class="form-field" >
+							                  <input type="text" name="email" id="email" class="form-control" placeholder="email" />
+							                  <?php echo form_error('email','<div class="error">','</div>') ?>
+							                </div>
+
+							                <div class="form-field" >
+							                  <input type="password" name="password" id="password" class="form-control" placeholder="password" />
+							                  <?php echo form_error('password','<div class="error">','</div>') ?>
+							                </div><br>
+
+							                <div class="form-field" >
+							                  <p>
+							                    <label>
+							                      <input type="checkbox" />
+							                      <span>Remember Me</span>
+							                    </label>
+							                  </p>
+							                </div><br>
+
+							                <div class="form-field center">
+							                  <input type="submit" name="submit" value="Login" class="btn red lighten-1" />
+							                </div>
+						               
+						                  
+						                	<?php echo form_close(); ?>
+								    </div>
+								    
+								  </div>
+          
+
 							</li>
     					</ul>
     				</div>
@@ -75,9 +102,9 @@
 				<a href="#contact"> Logout </a>
 			</li>
 			<?php } else { ?>
-				<li>
+				<!-- <li>
     			<a href="#signup">Sign up</a>
-    		</li>
+    		</li> -->
 			<li>
 				<a href="#login"> Login </a>
 			</li> 
@@ -382,14 +409,4 @@
 	  </section>
 	  <!-- SECTION CONTACT US ENDS -->
 
-	  <!-- SECTION FOOTER -->
-	  <footer class="section red lighten-1 white-text center">
-	    <p class="flow-text">MDM Analytics SIRT-E College &copy; 2020</p>
-	  </footer>
-
-      <!--JavaScript at end of body for optimized loading-->
-      <script type="text/javascript" src="<?php echo base_url() ?>assets/js/materialize.min.js"></script>
-      <!-- CUSTOM JS -->
-      <script type="text/javascript" src="<?php echo base_url() ?>assets/js/main.js"></script>
-    </body>
-  </html>
+	  

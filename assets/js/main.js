@@ -18,3 +18,11 @@ M.Materialbox.init(mb, {});
 // SCROLLSPY
 const ss = document.querySelectorAll('.scrollspy');
 M.ScrollSpy.init(ss, {});
+
+// LOGIN MODAL
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems,{
+    	preventScrolling: true
+    });
+  });

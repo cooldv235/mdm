@@ -22,7 +22,6 @@ class Dashboard extends CI_Controller {
 
         
         $this->load->view('dashboard/index', $data);
-		$this->load->view('home/index',$data );
 	}
 
 }

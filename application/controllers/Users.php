@@ -21,6 +21,6 @@ class Users extends CI_controller{
 
 
         $this->load->view('users/signup', $data);
-        $this->load->view('home/index',$data );
+        // $this->load->view('home/index',$data );
     }
 }

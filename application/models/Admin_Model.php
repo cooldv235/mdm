@@ -10,9 +10,9 @@ class Admin_Model extends CI_Model{
         $this->db->select('active');
 
         $this->db->where('email',$email);
-        $this->db->where('password',$password);
+        $this->db->where('password',password_verify($password, PASSWORD_DEFAULT));
         $this->db->where('active',1);
-        $query = $this->db->get('admin');
+        $query = $this->db->get('users');
 
         if($query->num_rows() == 1){
             return $query->row();
