@@ -33,7 +33,7 @@
 								  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Login</a>
 
 								  <!-- Modal Structure -->
-								  <div id="modal1" class="modal">
+								  <div id="modal1" class="modal" style="width: 30%;max-height:none;">
 								    <div class="modal-content">
 								      <h4 class="red-text center">Login</h4>
 								      
@@ -50,7 +50,7 @@
 							                <div class="form-field" >
 							                  <input type="password" name="password" id="password" class="form-control" placeholder="password" />
 							                  <?php echo form_error('password','<div class="error">','</div>') ?>
-							                </div><br>
+							                </div>
 
 							                <div class="form-field" >
 							                  <p>
@@ -59,7 +59,7 @@
 							                      <span>Remember Me</span>
 							                    </label>
 							                  </p>
-							                </div><br>
+							                </div>
 
 							                <div class="form-field center">
 							                  <input type="submit" name="submit" value="Login" class="btn red lighten-1" />
